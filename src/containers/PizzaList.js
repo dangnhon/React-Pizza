@@ -15,7 +15,7 @@ class PizzaList extends Component {
         </thead>
         <tbody>
           {
-            //render Pizza here
+            this.props.allPizzas.map(pizza => <Pizza pizza={pizza} handleClickEditPizza={this.props.handleClickEditPizza} />)
           }
         </tbody>
       </table>

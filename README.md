@@ -13,10 +13,12 @@ TO INSTALL: npm install -g json-server
 TO START: json-server --watch db.json
 ```
 
-After firing up your server, render the list of pizzas in to the table.
+[x] After firing up your server, render the list of pizzas in to the table.
 
-Each row in the table should be a pizza component and when you click the "Edit" button, it should send the pizza associated with that component into the Pizza form.
+[x] Each row in the table should be a pizza component and when you click the "Edit" button, it should send the pizza associated with that component into the Pizza form.
 
-The pizza form will then render the information about the pizza in the form, which will be editable.
+[x] The pizza form will then render the information about the pizza in the form, which will be editable.
 
-When the form is submitted, the information should be reflected in your table and persist in the backend.
+[x] When the form is submitted, the information should be reflected in your table and persist in the backend.
+
+Bonus: Add a favorites pizza section. Clicking a pizza in the main section should add it to the favorites section. Clicking the pizza while it's in the favorites section should remove it from the favorites section. Bonus: The pizza should only appear in one section at a time.
